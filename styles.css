@@ -30,23 +30,29 @@ body{
 .header-links ul li a{
     color: white;
 }
-/* /header*/
-.cont-one{
-    display: flex;
-    padding: 50px;
-    gap: 100px;
-    padding-top: 50px;
-    
-}
 .logo{
     
     height: 70px;
 }
+/* /header*/
+
+/* cont-one*/
+.cont-one{
+    display: flex;
+    padding: 50px;
+    gap: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+    
+}
+
 .image-one{
     width: 400px;
     height: auto;
     
-}
+} 
+
+/* /cont-one*/
 /* left-side*/
 .left-side{
     display: flex;
@@ -78,3 +84,73 @@ body{
 }
 
 /* /left-side*/
+
+/*cont-two*/
+.cont-two{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    padding: 100px;
+    gap: 50px;
+}
+.boxes{
+    display: flex;
+    gap: 50px;
+}
+.box{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.empty-box{
+    border-color: #3882f6;
+    border-radius: 15px;
+    background-color: #1F2937;
+    width: 150px;
+    height: 150px;
+}
+.box-text{
+    width: 140px;
+    text-align: justify ;
+}
+.cont-two h1{
+    font-size: 36px;
+    font-weight: 800;
+}
+
+/* /cont-two*/
+
+/*cont-three*/
+.cont-three{
+    background-color: rgb(217, 214, 214);
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.quote{
+    font-size: 36px;
+    font-style: italic;
+    width: 700px;
+    text-align: center;
+}
+
+.cont-three caption{
+    font-weight: 700;
+    font-size: 100px;
+}
+
+/* /cont-three*/
+
+/*footer*/
+.footer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.footer p{
+    color: white;
+}
+/* /footer*/
