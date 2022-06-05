@@ -144,6 +144,45 @@ body{
 
 /* /cont-three*/
 
+
+/* cont-four*/
+
+.cont-four{
+    display: flex;
+    background-color: white;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+    
+}
+.texts{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.blue-box{
+    background-color: #3882f6;
+    height: 150px;
+    width: 700px;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between ;
+    align-items: center;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+.cont-four button{
+    height: 40px;
+    width: 70px;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 3px;
+}
+
+
+
+/* /count-four*/
+
 /*footer*/
 .footer{
     display: flex;
